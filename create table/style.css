@@ -1,0 +1,19 @@
+caption{
+    font-size: 1.5rem;
+}
+
+table{
+    width: 45rem;
+    height: 300px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+tr,td{
+    border: 2px solid black;
+}
+tr:nth-of-type(1){
+    height: 4rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

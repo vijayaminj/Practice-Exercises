@@ -1,9 +1,9 @@
 const details=[
-    {name:"meena",designation:"Frontend Developer",pic:"pic2.jpeg",btn:"about me",
+    {name:"meena",designation:"Frontend Developer",pic:"pic1.png",btn:"about me",
     about:" I have more than 3 years experience of  this filed"},
-    {name:"mohan",designation:"software engineer",pic:"pic2.jpeg",btn:"about me",
+    {name:"mohan",designation:"software engineer",pic:"pic2.png",btn:"about me",
     about:"I have more than 3 years experience of  this filed"},
-    {name:"john",designation:"data analitics",pic:"pic2.jpeg",btn:"about me",
+    {name:"john",designation:"data analitics",pic:"pic2.png",btn:"about me",
     about:" I have more than 3 years experience of  this filed"},
 ];
 

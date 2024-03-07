@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News all over countryt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <a href="" onclick="reload()">
+                    <img src="pic.jpg">
+                </a>
+            </div>
+            <div class="searchbox">
+                <input type="text" placeholder=" eg.blog " id="inputNews">
+                <button id="btn">search</button>
+            </div>
+                <ul class="listitems">
+                    <li id="ipl"  class="navitem" onclick="navItemclick('ipl')">Cricket</li>
+                    <li id="finance" class="navitem" onclick="navItemclick(`finance`)">Finance</li>
+                    <li id="politics"  class="navitem" onclick="navItemclick(`politics`)">Politics</li>
+                </ul>
+            <div class="bar">=</div>
+            <div class="cross">X </div>
+        </nav>
+    </header>
+    <main>
+        <div id="card-container">
+               
+        </div>
+    </main>
+    <template id="template-card">
+        <div class="card">
+            <div class="card-top">
+                <img src="pic.jpg" alt="news" id="news-pic">
+            </div>
+            <div class="card-content">
+                <h3 id="title">Title:</h3>
+                <h5 id="date">date: </h5>
+                <p id="news-detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, cumque?</p>
+            </div>
+        </div>
+    </template>
+    <footer>
+        <div id="foot">
+            <div>about company</div>
+            <div>social icons</div>
+        </div>
+    </footer>
+
+    <script src="news.js"></script>
+    
+</body>
+</html>

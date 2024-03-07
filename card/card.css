@@ -96,10 +96,10 @@ img{
 }
 
 .socialIcon a:nth-of-type(1){
-    color:rgb(33, 199, 225); 
+    color:blue; 
 } 
 .socialIcon a:nth-of-type(2){
-    color:blue; 
+    /* color:blue;  */
 } 
 .socialIcon a:nth-of-type(3){
     color:blue; 
